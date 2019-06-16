@@ -2,16 +2,25 @@
     width: 100%;
 }
 
-h1 {
+.header-item {
     text-decoration: none;
+    color: black;
+    /* float: right; */
 }
 
 .header-nav {
     list-style-type: none; 
     display: flex;
-    justify-content: space-around;       
-    margin: 0 auto;    
-    /* margin-top: 46px; */
+    justify-content: space-around;      
+    margin-left: 780px; 
+    /* float: right; */
+}
+
+#header-hero {
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin-left: 60px;
 }
 
 nav li {
@@ -23,5 +32,11 @@ nav li {
     line-height: normal;
     letter-spacing: 0.3px;
     color: #000000;
-    padding: 20px;
+    padding: 20px;    
+}
+
+
+.header-item:hover {
+    text-decoration: underline;
+    color: black;
 }
