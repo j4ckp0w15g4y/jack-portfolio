@@ -10,9 +10,9 @@ class Portfolio extends Component {
         return (
             <div>
                 <div className="portfolio-images">
-                   <a href="https://epic-jones-4619fa.netlify.com/"> <img src={Made2FitHero} className=""></img></a>        
-                   <a href="https://nypd-shooting-incidents-2018.herokuapp.com/"> <img src={NYCShooting} className=""></img></a>        
-                   <a href="http://recyclo.surge.sh/"> <img src={RecycloHero} className=""></img></a>                       
+                   <a href="https://epic-jones-4619fa.netlify.com/"> <img src={Made2FitHero} className="project-image"></img></a>        
+                   <a href="https://nypd-shooting-incidents-2018.herokuapp.com/"> <img src={NYCShooting} className="project-image"></img></a>        
+                   <a href="http://recyclo.surge.sh/"> <img src={RecycloHero} className="project-image"></img></a>                       
                 </div>
 
             </div>

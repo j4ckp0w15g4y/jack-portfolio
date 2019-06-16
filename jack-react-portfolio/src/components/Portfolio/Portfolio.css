@@ -1,14 +1,12 @@
 .portfolio-images {
     display: flex; 
-    flex-direction: column;
-    flex-wrap: wrap; 
-    /* width: %; */
+    flex-direction: row;
+    width: 100%;
     justify-content: center;
-    width: 100px;
 }
 
-.portfolio-images > img {
-    width: 100px;
-    height: 100px;
-    /* padding: 24px 24px 24px 0; */
+.portfolio-images > a > .project-image {
+    width: 350px;
+    height: 200px;
+    padding: 24px 24px 24px 0;
 }
