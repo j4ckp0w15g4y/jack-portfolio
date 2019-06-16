@@ -1,0 +1,14 @@
+.portfolio-images {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap; 
+    /* width: %; */
+    justify-content: center;
+    width: 100px;
+}
+
+.portfolio-images > img {
+    width: 100px;
+    height: 100px;
+    /* padding: 24px 24px 24px 0; */
+}
