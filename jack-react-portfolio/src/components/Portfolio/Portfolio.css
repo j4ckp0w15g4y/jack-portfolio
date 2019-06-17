@@ -3,10 +3,28 @@
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    position: relative;
 }
 
 .portfolio-images > a > .project-image {
     width: 350px;
     height: 200px;
     padding: 24px 24px 24px 0;
+}
+
+.git-link {
+    display: flex;
+    flex-direction: row;
+    width: 100;
+    justify-content: center;
+}
+
+.git-link > a > img {
+    width: 40px;
+    padding: 0 178px 0 160px;
+}
+
+
+.project-image:hover {
+    filter: blur(2px);
 }

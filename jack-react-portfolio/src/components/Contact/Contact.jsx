@@ -6,9 +6,10 @@ class Contact extends Component {
         return (
             <div>
                 <h2>CONTACT</h2>
+                <div id="contact-link-design">
                 <a className="contact-link" href="https://www.linkedin.com/in/jack-gay/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
                 <a className="contact-link" href="mailto:jackpowis@gmail.com" target="_blank" rel="noopener noreferrer">EMAIL ME</a>
-                
+                </div>
             </div>
         );
     }
