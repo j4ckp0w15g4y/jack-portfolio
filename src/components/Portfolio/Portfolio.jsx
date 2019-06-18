@@ -4,7 +4,7 @@ import Made2FitHero from "../../Assets/made2fit-hero.png"
 import NYCShooting from "../../Assets/nyc-shooting-incident-hero.png"
 import RecycloHero from "../../Assets/recyclo-hero.png"
 import GitHub from "../../Assets/25231.svg"
-import JackSite from "../../Assets/25231.svg"
+import JackSite from "../../Assets/jack-site.png"
 
 
 class Portfolio extends Component {
