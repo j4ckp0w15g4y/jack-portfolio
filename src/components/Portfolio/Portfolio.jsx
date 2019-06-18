@@ -4,7 +4,7 @@ import Made2FitHero from "../../Assets/made2fit-hero.png"
 import NYCShooting from "../../Assets/nyc-shooting-incident-hero.png"
 import RecycloHero from "../../Assets/recyclo-hero.png"
 import GitHub from "../../Assets/25231.svg"
-import JackSite from "../../Assets/jack-site.png"
+import JackSite from "../../Assets/25231.svg"
 
 
 class Portfolio extends Component {
@@ -22,13 +22,15 @@ class Portfolio extends Component {
 
                    <a href="http://recyclo.surge.sh/" target="_blank" rel="noopener noreferrer"> <img src={RecycloHero} className="project-image"></img></a>
                    {/* <p className="project-info">Recyclo</p>                        */}
-                   <a href="https://jackgay.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src={RecycloHero} className="project-image"></img></a>
+                   <a href="https://jackgay.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src={JackSite} className="project-image"></img></a>
 
                 </div>
                 <div className="git-link">
                 <a href="https://github.com/shenae/made2fit" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className=""></img></a>        
                 <a href="https://github.com/j4ckp0w15g4y/gun-crime-2018" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className=""></img></a>  
-                <a href="https://github.com/j4ckp0w15g4y/recyclo" target="_blank" rel="noopener noreferrer"> <img src={JackSite} className=""></img></a>                        
+                <a href="https://github.com/j4ckp0w15g4y/recyclo" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className=""></img></a> 
+                <a href="https://github.com/j4ckp0w15g4y/jack-portfolio" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className=""></img></a>                        
+                       
                 </div>
 
 
