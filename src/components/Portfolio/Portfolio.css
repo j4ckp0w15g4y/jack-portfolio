@@ -1,30 +1,47 @@
 .portfolio-images {
     display: flex; 
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
     position: relative;
 }
 
-.portfolio-images > a > .project-image {
-    width: 250px;
-    height: 150px;
+.portfolio-images > a > .project-image
+/* .project-image */
+ {
+    /* width: 250px; */
+    /* height: 150px; */
+    width: 50%;
+    height: auto;
+    
     padding: 24px 24px 24px 0;
 }
 
-.git-link {
+.project-image {
+    width: 100%;
+    height: 100%;
+}
+
+/* .git-link {
     display: flex;
     flex-direction: row;
-    width: 100;
+    width: 100px;
     justify-content: center;
 }
 
 .git-link > a > img {
     width: 40px;
-    padding: 0 178px 0 160px;
-}
+    padding: 0 125px 0 110px;
+} */
 
 
 .project-image:hover {
-    filter: blur(2px);
+    filter: blur(4px);
+}
+
+#github {
+    width: 50px;
+    /* margin-top: 110px; */
+    margin-bottom: 60px;
 }
