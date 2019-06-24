@@ -12,7 +12,7 @@ class Portfolio extends Component {
     render() {
         return (
             <div>
-                <h2>PORTFOLIO</h2>
+                <h1>PORTFOLIO</h1>
                 <div className="portfolio-images">
                     <div className="project">   
                     <div className="project-shot">                     
@@ -20,7 +20,7 @@ class Portfolio extends Component {
                    </div>
                    {/* <p className="project-info">Made2Fit</p> */}
                    <div className="git-info">
-                       <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+                       <p><h2>Made2Fit:</h2> The project was created with React. I undertook this project in collaboration with UX students and classmates.</p>
                   
                    <a href="https://github.com/shenae/made2fit" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>        
                    </div>
@@ -32,7 +32,7 @@ class Portfolio extends Component {
                    {/* <p className="project-info">NYC Shooting Incidents 2018</p>                        */}
                    </div>
                    <div className="git-info">
-                   <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+                   <p><h2>NYC Open Data Map:</h2> Created with React.</p>
 
                    <a href="https://github.com/j4ckp0w15g4y/gun-crime-2018" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>  
                    </div>
@@ -44,7 +44,7 @@ class Portfolio extends Component {
                    {/* <p className="project-info">Recyclo</p>                        */}
                    </div>
                    <div className="git-info">
-                   <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+                   <p><h2>Recyclo:</h2> Created using React, Express, Sequelize.</p>
 
                    <a href="https://github.com/j4ckp0w15g4y/recyclo" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a> 
                     </div>
@@ -55,7 +55,7 @@ class Portfolio extends Component {
                    <a href="https://jackgay.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src={JackSite} className="project-image"></img></a>
                   </div>
                   <div className="git-info">
-                  <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+                  <p><h2>My Portfolio:</h2> A joke.</p>
 
                    <a href="https://github.com/j4ckp0w15g4y/jack-portfolio" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>                        
                    </div>
@@ -66,7 +66,7 @@ class Portfolio extends Component {
                    <a href="https://showhost-nyc.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src={ShowHost} className="project-image"></img></a>
                     </div>
                     <div className="git-info">
-                    <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+                    <p><h2>ShowHost:</h2>Leverages React-on-Rails</p>
 
                    <a href="https://github.com/j4ckp0w15g4y/show-host" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>                        
 
