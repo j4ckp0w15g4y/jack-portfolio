@@ -32,7 +32,7 @@ class Portfolio extends Component {
                    {/* <p className="project-info">NYC Shooting Incidents 2018</p>                        */}
                    </div>
                    <div className="git-info">
-                   <p><h2>NYC Open Data Map:</h2> Created with React.</p>
+                   <p><h2>NYC Open Data Map:</h2>a application mapping shooting occurences in New York circa 2018, which leverages React </p>
 
                    <a href="https://github.com/j4ckp0w15g4y/gun-crime-2018" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>  
                    </div>
@@ -44,13 +44,13 @@ class Portfolio extends Component {
                    {/* <p className="project-info">Recyclo</p>                        */}
                    </div>
                    <div className="git-info">
-                   <p><h2>Recyclo:</h2> Created using React, Express, Sequelize.</p>
+                   <p><h2>Recyclo:</h2> an application which lists recycling centres within New York City, which leverages React, Express, Sequelize, and Sass.</p>
 
                    <a href="https://github.com/j4ckp0w15g4y/recyclo" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a> 
                     </div>
                     </div>
 
-                    <div className="project">   
+                    {/* <div className="project">   
                     <div className="project-shot"> 
                    <a href="https://jackgay.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src={JackSite} className="project-image"></img></a>
                   </div>
@@ -59,14 +59,14 @@ class Portfolio extends Component {
 
                    <a href="https://github.com/j4ckp0w15g4y/jack-portfolio" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>                        
                    </div>
-                    </div>
+                    </div> */}
 
                     <div className="project">   
                     <div className="project-shot"> 
                    <a href="https://showhost-nyc.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src={ShowHost} className="project-image"></img></a>
                     </div>
                     <div className="git-info">
-                    <p><h2>ShowHost:</h2>Leverages React-on-Rails</p>
+                    <p><h2>ShowHost:</h2>an event listing application with full CRUD functionality, which leverages React-on-Rails</p>
 
                    <a href="https://github.com/j4ckp0w15g4y/show-host" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>                        
 
