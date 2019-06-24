@@ -20,7 +20,9 @@ class Portfolio extends Component {
                    </div>
                    {/* <p className="project-info">Made2Fit</p> */}
                    <div className="git-info">
-                   <a href="https://github.com/shenae/made2fit" target="_blank" rel="noopener noreferrer"> <img src={GitHub} id="github"></img></a>        
+                       <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+                  
+                   <a href="https://github.com/shenae/made2fit" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>        
                    </div>
                    </div>
 
@@ -30,7 +32,9 @@ class Portfolio extends Component {
                    {/* <p className="project-info">NYC Shooting Incidents 2018</p>                        */}
                    </div>
                    <div className="git-info">
-                   <a href="https://github.com/j4ckp0w15g4y/gun-crime-2018" target="_blank" rel="noopener noreferrer"> <img src={GitHub} id="github"></img></a>  
+                   <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+
+                   <a href="https://github.com/j4ckp0w15g4y/gun-crime-2018" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>  
                    </div>
                    </div> 
 
@@ -40,7 +44,9 @@ class Portfolio extends Component {
                    {/* <p className="project-info">Recyclo</p>                        */}
                    </div>
                    <div className="git-info">
-                   <a href="https://github.com/j4ckp0w15g4y/recyclo" target="_blank" rel="noopener noreferrer"> <img src={GitHub} id="github"></img></a> 
+                   <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+
+                   <a href="https://github.com/j4ckp0w15g4y/recyclo" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a> 
                     </div>
                     </div>
 
@@ -49,7 +55,9 @@ class Portfolio extends Component {
                    <a href="https://jackgay.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src={JackSite} className="project-image"></img></a>
                   </div>
                   <div className="git-info">
-                   <a href="https://github.com/j4ckp0w15g4y/jack-portfolio" target="_blank" rel="noopener noreferrer"> <img src={GitHub} id="github"></img></a>                        
+                  <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+
+                   <a href="https://github.com/j4ckp0w15g4y/jack-portfolio" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>                        
                    </div>
                     </div>
 
@@ -58,7 +66,9 @@ class Portfolio extends Component {
                    <a href="https://showhost-nyc.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src={ShowHost} className="project-image"></img></a>
                     </div>
                     <div className="git-info">
-                   <a href="https://github.com/j4ckp0w15g4y/show-host" target="_blank" rel="noopener noreferrer"> <img src={GitHub} id="github"></img></a>                        
+                    <p><h2>Made2Fit:</h2> I undertook this project in collaboration with UX students and classmates.</p>
+
+                   <a href="https://github.com/j4ckp0w15g4y/show-host" target="_blank" rel="noopener noreferrer"> <img src={GitHub} className="github"></img></a>                        
 
                    </div>
                     </div>
