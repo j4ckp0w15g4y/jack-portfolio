@@ -5,3 +5,15 @@
 p {
     font-size: 20px;
 }
+
+.icon-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.favicon {
+    font-size: 5em;
+}
