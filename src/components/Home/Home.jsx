@@ -7,7 +7,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h1>I'm a web developer and music publicist currently based in New York, NY.</h1>
+                <h1>I'm a web developer and music publicist currently based in London</h1>
                 <img src={PortImage} className="hero-image" title="Jack Gay Image"></img>
             </div>
         );
