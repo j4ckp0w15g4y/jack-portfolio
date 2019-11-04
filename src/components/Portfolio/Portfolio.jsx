@@ -11,7 +11,7 @@ import ShowHost from "../../Assets/showhost.png"
 class Portfolio extends Component {
     render() {
         return (
-            <div className="portfolio-section">
+            <div className="portfolio-section page">
                 <h1 id="portfolio-title">PORTFOLIO</h1>
                 <div className="portfolio-images">
                     <div className="project">

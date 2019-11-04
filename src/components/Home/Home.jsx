@@ -6,7 +6,7 @@ import './Home.css'
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="page">
                 <h1>I'm a web developer and music publicist currently based in London</h1>
                 <img src={PortImage} className="hero-image" title="Jack Gay Image"></img>
             </div>

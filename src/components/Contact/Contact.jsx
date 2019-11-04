@@ -4,9 +4,9 @@ import './Contact.css'
 class Contact extends Component {
     render() {
         return (
-            <div>
+            <div className="page">
                 <h1>CONTACT</h1>
-                <div id="contact-link-design">
+                <div className="contact-link-design">
                 <a className="contact-link" href="https://www.linkedin.com/in/jack-gay/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
                 <a className="contact-link" href="mailto:jackpowis@gmail.com" target="_blank" rel="noopener noreferrer">EMAIL ME</a>
                 </div>

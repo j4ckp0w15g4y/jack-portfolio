@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 import {
-  BrowserRouter as Router,
   Switch,
-  Route,
-  Link,
-  Redirect
+  Route
 } from "react-router-dom";
+import {
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group';
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import About from './components/About/About'
@@ -22,12 +23,23 @@ function App() {
         <Header />
       </header>
       <main>
-        <Switch>
-          <Route exact path="/" render={() => <Home />} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/portfolio" component={Portfolio} />
-        </Switch>
+        <Route render={({location}) => (
+          <TransitionGroup>
+          <CSSTransition 
+          key={location.key}         
+            timeout={300}
+            classNames="fade"
+          >
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/contact" component={Contact} />
+              <Route path="/portfolio" component={Portfolio} />
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
+        )}/>
+        
       </main>
 
     </div>
