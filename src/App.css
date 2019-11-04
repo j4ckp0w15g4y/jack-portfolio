@@ -1,12 +1,11 @@
 .App {
-  text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   background-color: #f0ead6;
 }
 
 main {
-  display: block;
-  margin-top: 80px;
+  text-align: center;
+  margin-top: 80px;    
 }
 
 

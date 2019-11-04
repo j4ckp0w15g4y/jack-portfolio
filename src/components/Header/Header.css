@@ -1,5 +1,6 @@
-.header {
-    width: 100%;
+.header {        
+    width: 100%; 
+    overflow: hidden;   
 }
 
 .header-item {
@@ -11,10 +12,9 @@
 .header-nav {
     list-style-type: none; 
     display: flex;
-    justify-content: space-around;      
-    /* margin-left: 780px;  */
-    /* margin-right: 60px; */
+    justify-content: space-around;   
     float: right;
+    margin-right: 60px;
 }
 
 #header-hero {
