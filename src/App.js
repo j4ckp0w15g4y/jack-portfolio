@@ -13,19 +13,19 @@ function App() {
   return (
     <div className="App">
       <header>
-    <Header />
-        </header>     
+        <Header />
+      </header>
 
-        <main>
+      <main>
 
-        <Route exact path="/" render={ () => <Home />}/>
+        <Route exact path="/" render={() => <Home />} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
 
 
-        </main>
-       
+      </main>
+
     </div>
   );
 }

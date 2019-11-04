@@ -5,6 +5,7 @@
 }
 
 main {
+  display: block;
   margin-top: 80px;
 }
 

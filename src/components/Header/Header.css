@@ -12,9 +12,9 @@
     list-style-type: none; 
     display: flex;
     justify-content: space-around;      
-    margin-left: 780px; 
-    margin-right: 60px;
-    /* float: right; */
+    /* margin-left: 780px;  */
+    /* margin-right: 60px; */
+    float: right;
 }
 
 #header-hero {
@@ -43,3 +43,4 @@ nav li {
     text-decoration: underline;
     color: black;
 }
+
