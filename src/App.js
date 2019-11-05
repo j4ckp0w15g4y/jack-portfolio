@@ -30,7 +30,7 @@ function App() {
             timeout={300}
             classNames="fade"
           >
-            <Switch>
+            <Switch location={location}>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
