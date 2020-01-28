@@ -35,6 +35,11 @@ main {
   transition: opacity 150ms linear;
 }
 
+.second-info {
+  align-items: center;
+  margin-top: 100px;
+}
+
 
   
 
